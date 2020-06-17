@@ -4,10 +4,9 @@ MAINTAINER Mosquito <me@mosquito.su>
 
 RUN apt-get update && \
     apt-get install -y \
-        libcurl-openssl1.0-dev \
         libmysqlclient-dev \
+        libssl-dev \
         libpq-dev \
-        libssl1.0-dev \
         libxml2-dev \
         libxslt1-dev \
         libffi-dev
